@@ -1,0 +1,33 @@
+{
+  "name": "wizard-world-backend",
+  "version": "1.0.0",
+  "description": "The backend of the wizard world project.",
+  "main": "/src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "NODE_ENV=test jest --verbose --runInBand",
+    "lint": "eslint ."
+  },
+  "author": "Dimitrios Paximadakis",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitrispax/wizard-world-backend.git"
+  },
+  "keywords": [
+    "harry",
+    "potter",
+    "wizard"
+  ],
+  "bugs": {
+    "url": "https://github.com/dimitrispax/wizard-world-backend/issues"
+  },
+  "homepage": "https://github.com/dimitrispax/wizard-world-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^3.1.0"
+  }
+}
